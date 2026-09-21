@@ -1,0 +1,8 @@
+class Solution:
+    def sumOfDigits(self, n):
+        # code here
+        count=0
+        while n>0:
+            count+=n%10
+            n=n//10
+        return count
